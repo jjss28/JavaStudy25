@@ -7,21 +7,21 @@ public class PromotionExam {
 		byte byteValue = 10 ;
 		int intValue = byteValue ;
 		
-		System.out.println("ÀÚµ¿Å¸ÀÔµÈ int : " + intValue);
+		System.out.println("ìë™íƒ€ì…ëœ int : " + intValue);
 		
-		char charValue = '°¡' ;
+		char charValue = 'ê°€' ;
 		intValue = charValue ;
 		
-		System.out.println("ÀÚµ¿Å¸ÀÔµÈ int : " + intValue);
+		System.out.println("ìë™íƒ€ì…ëœ int : " + intValue);
 		
 		intValue = 500 ;
 		long longValue = intValue ;
-		System.out.println("ÀÚµ¿Å¸ÀÔµÈ long : " + longValue);
+		System.out.println("ìë™íƒ€ì…ëœ long : " + longValue);
 		
 		intValue = 200 ;
 		double doubleValue = intValue ; 
-		System.out.println("ÀÚµ¿Å¸ÀÔµÈ double : " + doubleValue);
-		//¿À¸¥ÂÊ¿¡¼­ ¿ŞÂÊÀ¸·Î <<
+		System.out.println("ìë™íƒ€ì…ëœ double : " + doubleValue);
+		//ì˜¤ë¥¸ìª½ì—ì„œ ì™¼ìª½ìœ¼ë¡œ <<
 		
 				
 

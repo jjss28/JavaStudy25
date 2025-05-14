@@ -17,7 +17,7 @@ public class IntToDoubleExam {
 	
 	int result = num1 - num2 ;
 	
-	System.out.println("double·Î ´Ù³à¿Â ÈÄ¿¡ num2°ª º¯°æ¾ÈµÊ");
+	System.out.println("doubleë¡œ ë‹¤ë…€ì˜¨ í›„ì— num2ê°’ ë³€ê²½ì•ˆë¨");
 	System.out.println("num1 - num2 : " + result );
 
 	

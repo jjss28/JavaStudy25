@@ -3,19 +3,19 @@ package ch01;
 public class CompareExam {
 
 	public static void main(String[] args) {
-		// ºñ±³ ¿¬»êÀÚ´Â µ¿µîºñ±³¿Í Å©±â ºñ±³°¡ ÀÖ´Ù.
-		// == : °°³Ä?
-		// != : ´Ù¸£³Ä?
-		// > : ÃÊ°ú, Å©³Ä?
-		// >= : ÀÌ»ó, Å©°Å³ª °°³Ä?
-		// < : ¹Ì¸¸, ÀÛ³Ä?
-		// <= : ÀÌÇÏ, ÀÛ°Å³ª °°³Ä?
+		// ë¹„êµ ì—°ì‚°ìžëŠ” ë™ë“±ë¹„êµì™€ í¬ê¸° ë¹„êµê°€ ìžˆë‹¤.
+		// == : ê°™ëƒ?
+		// != : ë‹¤ë¥´ëƒ?
+		// > : ì´ˆê³¼, í¬ëƒ?
+		// >= : ì´ìƒ, í¬ê±°ë‚˜ ê°™ëƒ?
+		// < : ë¯¸ë§Œ, ìž‘ëƒ?
+		// <= : ì´í•˜, ìž‘ê±°ë‚˜ ê°™ëƒ?
 		
 		int num1 = 10 ;
 		int num2 = 10 ;
 		boolean result1 = (num1 <= num2) ;
-		// boolean Å¸ÀÔÀº true, false °ªÀ» °¡Áú¼ö ÀÖ´Ù.
-		//                Âü    °ÅÁþ
+		// boolean íƒ€ìž…ì€ true, false ê°’ì„ ê°€ì§ˆìˆ˜ ìžˆë‹¤.
+		//                ì°¸    ê±°ì§“
 		System.out.println(result1);
 		
 		
@@ -25,25 +25,25 @@ public class CompareExam {
 		System.out.println(result2);
 		
 		
-		int v2 = 1 ;      // Á¤¼ö Å¸ÀÔÀÇ 1
-		double v3 = 1.0 ; // ½Ç¼ö Å¸ÀÔÀÇ 1.0
+		int v2 = 1 ;      // ì •ìˆ˜ íƒ€ìž…ì˜ 1
+		double v3 = 1.0 ; // ì‹¤ìˆ˜ íƒ€ìž…ì˜ 1.0
 		System.out.println(v2 == v3);
-		// ºñ±³ ¿¬»êÀÚ¿¡ Å¸ÀÔ¿¡ ´Ù¸¥ º¯¼ö¸¦ ºñ±³ÇÏ¸é ÀÚµ¿ Å¸ÀÔ º¯È¯ÀÌ ÀÏ¾î³².
-		// ÀÌ¶§ ÀÚµ¿Å¸ÀÔ º¯È¯Àº Å« °ªÀ¸·Î Å¸ÀÔÀ» ¸ÅÄªÇÔ
+		// ë¹„êµ ì—°ì‚°ìžì— íƒ€ìž…ì— ë‹¤ë¥¸ ë³€ìˆ˜ë¥¼ ë¹„êµí•˜ë©´ ìžë™ íƒ€ìž… ë³€í™˜ì´ ì¼ì–´ë‚¨.
+		// ì´ë•Œ ìžë™íƒ€ìž… ë³€í™˜ì€ í° ê°’ìœ¼ë¡œ íƒ€ìž…ì„ ë§¤ì¹­í•¨
 		
 		double v4 = 0.1 ;
 		float v5 = 0.1F ;
 		System.out.println("===================");
 		System.out.println(v4 == v5); // false
-		// ½Ç¼öÇü(¼Ò¼öÁ¡)Àº ºÎµ¿ ¼Ò¼öÁ¡ ¿¬»êÀ» ¼öÇàÇØ¼­ ±Ù»ç°ªÀ¸·Î Ç¥ÇöÀ» ÇÔ
-		// true Ã³¸®¸¦ ÇÏ·Á¸é °­Á¦Å¸ÀÔ º¯È¯À» ÇØ¾ß ÇÔ
-		System.out.println((float)v4 == v5); //v4¸¦ floatÇüÀ¸·Î º¯È¯
-		System.out.println(v4 == (double)v5); // ÀÚµ¿Å¸ÀÔ º¯È¯µÊ.
+		// ì‹¤ìˆ˜í˜•(ì†Œìˆ˜ì )ì€ ë¶€ë™ ì†Œìˆ˜ì  ì—°ì‚°ì„ ìˆ˜í–‰í•´ì„œ ê·¼ì‚¬ê°’ìœ¼ë¡œ í‘œí˜„ì„ í•¨
+		// true ì²˜ë¦¬ë¥¼ í•˜ë ¤ë©´ ê°•ì œíƒ€ìž… ë³€í™˜ì„ í•´ì•¼ í•¨
+		System.out.println((float)v4 == v5); //v4ë¥¼ floatí˜•ìœ¼ë¡œ ë³€í™˜
+		System.out.println(v4 == (double)v5); // ìžë™íƒ€ìž… ë³€í™˜ë¨.
 		
 		System.out.println((int)(v4*10) == (int)(v5*10));
 		System.out.println(v4); // 0.1
 		System.out.println(v5); // 0.1
-		// print¹®¿¡¼­ °è»êÀ» ÇÑ °ªÀº º¯¼ö¿¡ ÀúÀåµÇÁö ¾Ê´Â´Ù.
+		// printë¬¸ì—ì„œ ê³„ì‚°ì„ í•œ ê°’ì€ ë³€ìˆ˜ì— ì €ìž¥ë˜ì§€ ì•ŠëŠ”ë‹¤.
 		
 
 	}

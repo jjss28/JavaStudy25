@@ -17,7 +17,7 @@ public class IntToFloatExam {
 	
 	int result = num1 - num2 ;
 	
-	System.out.println("floatÀ¸·Î ´Ù³à¿Â ÈÄ¿¡ num2°ª º¯°æµÊ");
+	System.out.println("floatìœ¼ë¡œ ë‹¤ë…€ì˜¨ í›„ì— num2ê°’ ë³€ê²½ë¨");
 	System.out.println("num1 - num2 : " + result );
 
 	}

@@ -6,10 +6,10 @@ public class OperationExam {
 		
 		int x = 10 ;
 		x++ ; 
-		System.out.println("10¿¡ ++ ´ÜÇ× ¿¬»êÇÑ °á°ú : " + x);
+		System.out.println("10ì— ++ ë‹¨í•­ ì—°ì‚°í•œ ê²°ê³¼ : " + x);
 		
 		x-- ; 
-		System.out.println("x¿¡ -- ´ÜÇ× ¿¬»êÇÑ °á°ú : " + x);
+		System.out.println("xì— -- ë‹¨í•­ ì—°ì‚°í•œ ê²°ê³¼ : " + x);
 		
 		
 		int y = 20 ;
@@ -20,55 +20,55 @@ public class OperationExam {
 		
 		boolean result1 = (result>10) ? true : false ;
 	
-		System.out.println("result>10 °á°ú : " + result1);
+		System.out.println("result>10 ê²°ê³¼ : " + result1);
 		
-		String result2 = (result>50) ? "Å©´Ù" : "ÀÛ´Ù" ;
-		System.out.println("result>50 °á°ú : " + result2);
+		String result2 = (result>50) ? "í¬ë‹¤" : "ì‘ë‹¤" ;
+		System.out.println("result>50 ê²°ê³¼ : " + result2);
 		
 		int x1 = 10 * 10 ; 
 		System.out.println("10 x 10 = " + x1);
 		int x2 = 10 / 3 ; 
 		System.out.println("10 / 3 = " + x2);
 		int x3 = 10 % 3 ; 
-		System.out.println("10À» 3À¸·Î ³ª´« ³ª¸ÓÁö = " + x3);
+		System.out.println("10ì„ 3ìœ¼ë¡œ ë‚˜ëˆˆ ë‚˜ë¨¸ì§€ = " + x3);
 		
 		int odd = 11 ;
 		int div = odd % 2 ; 
-		String resultodd = (div == 1) ? "È¦¼ö" : "Â¦¼ö" ;
-		System.out.println("11ÀÇ È¦Â¦ °è»ê °á°ú : " + resultodd);
+		String resultodd = (div == 1) ? "í™€ìˆ˜" : "ì§ìˆ˜" ;
+		System.out.println("11ì˜ í™€ì§ ê³„ì‚° ê²°ê³¼ : " + resultodd);
 		
 		int multi4 = 24 ;
 		int div4 = multi4 % 4 ;  
-		String resultdiv4 = (div4 == 0) ? "4ÀÇ¹è¼ö°¡ ¸ÂÀ½" : "4ÀÇ¹è¼ö°¡ ¾Æ´Ô" ;
-		System.out.println("4ÀÇ¹è¼ö ÆÇ´Ü °á°ú : " +resultdiv4);
+		String resultdiv4 = (div4 == 0) ? "4ì˜ë°°ìˆ˜ê°€ ë§ìŒ" : "4ì˜ë°°ìˆ˜ê°€ ì•„ë‹˜" ;
+		System.out.println("4ì˜ë°°ìˆ˜ íŒë‹¨ ê²°ê³¼ : " +resultdiv4);
 		
-		// Áõ°¨ ¿¬»êÀÚ Å×½ºÆ®
-		System.out.println("-----------Áõ°¨ ¿¬»êÀÚ À§Ä¡¿¡ ´Ù¸¥ °á°ú------------");
+		// ì¦ê° ì—°ì‚°ì í…ŒìŠ¤íŠ¸
+		System.out.println("-----------ì¦ê° ì—°ì‚°ì ìœ„ì¹˜ì— ë‹¤ë¥¸ ê²°ê³¼------------");
 		int a = 10 ;
 		a++ ;
 		++a ;
-		System.out.println("a++ -> ++aÀÇ °á°ú :" + a );
+		System.out.println("a++ -> ++aì˜ ê²°ê³¼ :" + a );
 		
 		int b = 10 ;
 		b-- ;
 		--b ;
-		System.out.println("10 -> b-- -> --bÀÇ °á°ú :" +b);
+		System.out.println("10 -> b-- -> --bì˜ ê²°ê³¼ :" +b);
 		
 		int c ;
 		c = a++ ; 
-		System.out.println("aÀÇ °á°ú : " + a); 
-		System.out.println("cÀÇ °á°ú : " + c); 
+		System.out.println("aì˜ ê²°ê³¼ : " + a); 
+		System.out.println("cì˜ ê²°ê³¼ : " + c); 
 		System.out.println("---------------------------");
 		
 		c = ++a ;
-		System.out.println("aÀÇ °á°ú : " + a); 
-		System.out.println("cÀÇ °á°ú : " + c); 
+		System.out.println("aì˜ ê²°ê³¼ : " + a); 
+		System.out.println("cì˜ ê²°ê³¼ : " + c); 
 		System.out.println("---------------------------");
 		
 		c = ++a + b++ ;
-		System.out.println("aÀÇ °á°ú : " + a); 
-		System.out.println("bÀÇ °á°ú : " + b);
-		System.out.println("cÀÇ °á°ú : " + c); 
+		System.out.println("aì˜ ê²°ê³¼ : " + a); 
+		System.out.println("bì˜ ê²°ê³¼ : " + b);
+		System.out.println("cì˜ ê²°ê³¼ : " + c); 
 		System.out.println("--------------------");
 		
 
