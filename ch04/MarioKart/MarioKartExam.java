@@ -8,6 +8,15 @@ package ch04.MarioKart;
 
 import java.util.Scanner;
 
+import ch04.MarioKart.DTO.CartDTO;
+import ch04.MarioKart.DTO.CharacterDTO;
+import ch04.MarioKart.DTO.GliderDTO;
+import ch04.MarioKart.DTO.ItemDTO;
+import ch04.MarioKart.DTO.MemberDTO;
+import ch04.MarioKart.DTO.TireDTO;
+import ch04.MarioKart.Service.CartService;
+import ch04.MarioKart.Service.MemberService;
+
 public class MarioKartExam {
 	// 필드
 
